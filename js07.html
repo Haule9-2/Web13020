@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JS07</title>
+</head>
+
+<body>
+    <h1>Chương trình xử lý chuỗi</h1>
+    <form>
+        <label>Chuỗi S1 : </label>
+        <input type="text" placeholder="Enter your string 1 " id="str1" onchange="SaveS1()" />
+        <br>
+        <br>
+        <label>Chuỗi S2 : </label>
+        <input type="text" placeholder="Enter your string 2 " id="str2" />
+        <br>
+        <br>
+        <label>Chuỗi S3 : </label>
+        <input type="text" placeholder="Enter your string 3 " id="str3" />
+        <br>
+        <br>
+        <label>Vị trí chèn </label>
+        <input type="number" placeholder="position add " id="position" />
+        <br><br>
+        <input type="button" value="Chuẩn hoá chuỗi" onclick="Normalize()" />
+        <input type="button" value="Đảo chuỗi" onclick="resver()" />
+        <input type="button" value="Khôi Phục" onclick="Reset()" />
+        <br><br>
+        <input type="button" value="Thay Thế chuối S2 bằng S3" onclick="ReplaceS2ToS3()" />
+        <input type="button" value="Chèn chuối S2 vào S1" onclick="InsertS2ToS1()" />
+        <input type="button" value="Xoá S2 trong S1" onclick="DeleteS2FromS1()" />
+    </form>
+    <script src="./JS/js07.js"></script>
+</body>
+
+</html>

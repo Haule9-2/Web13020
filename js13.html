@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JS 13</title>
+    <style>
+        #canvas{border:1px solid red; width: 100%; max-width:600px}
+    </style>
+    <script
+        src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.9.4/Chart.js">
+    </script>
+</head>
+<body>
+    <p>
+        <label for="txtData">Nhập các giá trị:</label>
+        <input type="text" required id="txtData" value="20,50,70,80,40,30">
+        <button onclick="drawChart()">Draw Chart</button>
+    </p>
+    <canvas id="canvas"></canvas>
+    <script src="./js/js13.js">
+    </script>
+</body>
+</html>

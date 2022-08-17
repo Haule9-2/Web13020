@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>JQ03</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+  </head>
+  <style>
+    table {
+      width: 45%;
+      border: 1px solid;
+      border-collapse: collapse;
+    }
+
+    caption {
+      text-align: center;
+      font-size: 2em;
+      text-transform: uppercase;
+    }
+
+    thead {
+      border: 1px solid #c1fab8;
+      background-color: #f0f8ff;
+      font-weight: 900;
+    }
+
+    tbody {
+      border: 1px solid #ff934c;
+    }
+
+    thead > tr {
+      text-align: center;
+    }
+
+    tbody > tr {
+      font-size: 1, 5em;
+    }
+
+    .red {
+      background-color: red;
+    }
+  </style>
+
+  <body>
+    <table border="1">
+      <caption>
+        Bảng giá vật tư
+      </caption>
+      <thead>
+        <tr>
+          <td colspan="1">Tên vật tư</td>
+          <td colspan="1">Đơn vi tính</td>
+          <td colspan="1">Đơn giá</td>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Cát</td>
+          <td>Khối</td>
+          <td>77,000</td>
+        </tr>
+        <tr>
+          <td>Đá</td>
+          <td>Khối</td>
+          <td>90,000</td>
+        </tr>
+        <tr>
+          <td>Xi măng Hà Tiên loại 1</td>
+          <td>Bao</td>
+          <td>120,000</td>
+        </tr>
+        <tr>
+          <td>Xi măng Hà Tiên loại 2</td>
+          <td>Bao</td>
+          <td>100,000</td>
+        </tr>
+      </tbody>
+    </table>
+    <button id="btn1">Đổi màu nền</button>
+    <button id="btn2">Màu nền mặc định</button>
+    <script src="./JS/jq03.js"></script>
+  </body>
+</html>

@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>JS06</title>
+  </head>
+  <body>
+    <h1>BANG DANG KY THANH VIEN</h1>
+    <form action="">
+      <table border="1">
+        <tr>
+          <td>Ten dang nhap</td>
+          <td><input id="name" type="text" required /></td>
+        </tr>
+        <tr>
+          <td>Mat khau</td>
+          <td><input id="pass" type="password" /></td>
+        </tr>
+        <tr>
+          <td>Ngay sinh</td>
+          <td>
+            <input
+              type="date"
+              name=""
+              id="dob"
+              max="2007-01-01"
+              min="1800-01-01"
+            />
+          </td>
+        </tr>
+        <tr>
+          <td>Gioi tinh</td>
+          <td>
+            <input type="radio" name="gender" id="nam" value="Nam" />
+            <label for="nam">Nam</label>
+            <input type="radio" name="gender" id="nu" value="Nu" />
+            <label for="nu">Nu</label>
+          </td>
+        </tr>
+        <tr>
+          <td>Van de ban quan tam</td>
+          <td>
+            <select id="select">
+              <option>Kinh te</option>
+              <option>The Thao</option>
+              <option>Van hoc nghe thuat</option>
+            </select>
+          </td>
+        </tr>
+        <tr>
+          <td><input type="submit" id="submit" value="Dang ky" /></td>
+          <td><input type="reset" value="Huy" /></td>
+        </tr>
+        <tr>
+          <td colspan="2">
+            <textarea id="value" cols="40" rows="10"></textarea>
+          </td>
+        </tr>
+      </table>
+      <script src="./JS/js06.js"></script>
+    </form>
+  </body>
+</html>
