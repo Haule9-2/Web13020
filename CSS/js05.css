@@ -1,0 +1,14 @@
+h1{
+    text-align: center;
+}
+#container{
+    /* margin: 0 20%; */
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+#container > div{
+    border: 5px #000 double;
+    text-align: center;
+    width: 20%;
+}
